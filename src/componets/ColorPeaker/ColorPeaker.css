@@ -1,0 +1,13 @@
+.fondo{
+    height: 400px;
+
+}
+.colorimetro{
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+}
+.valorColor{
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+}

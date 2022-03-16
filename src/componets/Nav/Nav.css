@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap');
+
+
+
+.logo{
+    height: 2.4em;
+}
+#hiper{ 
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#hiper:hover{
+    color: rgb(0, 0, 0);
+}
+#btn{
+    border: 1px solid rgb(94, 94, 94);
+    color: black;
+    text-transform: uppercase;
+}
+#btn:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+@media (max-width: 810px){
+    #hiper{
+        display: none;
+    }
+}
+@media (max-width: 540px){
+    ul, li, #btn{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-items: end;
+        align-items: center;
+    }
+    .navrow{
+        display: flex;
+        flex-direction: column;
+    }
+}
