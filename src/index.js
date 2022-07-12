@@ -17,30 +17,30 @@ ReactDOM.render(
 reportWebVitals();
 
 
+// import {
+//   BrowswerRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "reat-router-dom";
 
+// const App = () => {
+//   return (
+//     <>
 
-
-import {
-  BrowswerRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "reat-router-dom";
-
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/direccionUrl" element={componente}/>
-      </Routes>
-    </Router>
-  )
-}
- const NotFound = () => {
-   return (
-     <div>
-       <h1>Pagina no encontrada</h1>
-     </div>
-   )
- }
- export default NotFound;
+//     <Router>
+//       <Routes>
+//         <Route path="/direccionUrl" element={componente}/>
+//       </Routes>
+//     </Router> 
+//     </>
+//   )
+// }
+//  const NotFound = () => {
+//    return (
+//      <div>
+//        <h1>Pagina no encontrada</h1>
+//      </div>
+//    )
+//  }
+//  export default NotFound;
