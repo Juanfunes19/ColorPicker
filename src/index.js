@@ -15,3 +15,32 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+
+
+import {
+  BrowswerRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "reat-router-dom";
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/direccionUrl" element={componente}/>
+      </Routes>
+    </Router>
+  )
+}
+ const NotFound = () => {
+   return (
+     <div>
+       <h1>Pagina no encontrada</h1>
+     </div>
+   )
+ }
+ export default NotFound;

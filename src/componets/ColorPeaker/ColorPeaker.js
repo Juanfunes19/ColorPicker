@@ -1,6 +1,6 @@
 
 import "./ColorPeaker.css";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 
 const ColorPeaker = () => {
@@ -17,4 +17,5 @@ return (
 )
 }
 
-export default ColorPeaker
+export default ColorPeaker 
+
